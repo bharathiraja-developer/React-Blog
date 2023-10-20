@@ -25,7 +25,7 @@ const Contents = [
   },
   {
     id: 3,
-    src: "src/assets/id3.jpg",
+    src: "../assets/id3.jpg",
     title: "Top Full Stack Development Webinars and Workshops",
     description:
       "Are you keen to elevate your web development skills and master the art of Full",
