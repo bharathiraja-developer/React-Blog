@@ -1,16 +1,14 @@
 import React from "react";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Productcard from "./Productcard";
 import Contents from "./Contents";
-import FullStack from "./FullStack";
 
-function Home() {
+function Career() {
   return (
-    <div>
-      <section className="py-5">
-        <div className="container px-4 px-lg-5 mt-3">
-          <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
-            {Contents.map((content) => {
+    <section className="py-5">
+      <div className="container px-4 px-lg-5 mt-3">
+        <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
+          {Contents.map((content) => {
+            if (Number(content.id) < 24 && Number(content.id) > 17) {
               return (
                 <Productcard
                   key={content.id}
@@ -21,12 +19,12 @@ function Home() {
                   footer={content.footer}
                 />
               );
-            })}
-          </div>
+            }
+          })}
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
 
-export default Home;
+export default Career;
