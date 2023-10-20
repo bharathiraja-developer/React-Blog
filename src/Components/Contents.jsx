@@ -106,7 +106,7 @@ const Contents = [
   },
   {
     id: 13,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-768x432.png",
+    src: "src/assets/id13.png",
     title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
     description:
       "Cybersecurity & Ethical hacking and have been key in making sure that your data online",
