@@ -25,7 +25,7 @@ const Contents = [
   },
   {
     id: 3,
-    src: "../assets/id3.jpg",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Best-Full-Stack-Development-Online-Courses.webp",
     title: "Top Full Stack Development Webinars and Workshops",
     description:
       "Are you keen to elevate your web development skills and master the art of Full",
@@ -33,7 +33,7 @@ const Contents = [
   },
   {
     id: 4,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/24746653_7002417-1-2048x1365.jpg",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/best-way-to-learn-full-stack-development-2048x1072.webp",
     title: "The Future & Scope of Full-Stack Developers in India",
     description:
       "Have you ever wondered about the future of full stack developers in India? These talented",
@@ -41,7 +41,7 @@ const Contents = [
   },
   {
     id: 5,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/html-css-collage-concept-with-person.jpg",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-2048x1072.webp",
     title: "Top 10 Full-Stack Developer Frameworks in 2023",
     description:
       "In the ever-evolving world of technology, the demand for full stack developers is at an",
@@ -106,7 +106,7 @@ const Contents = [
   },
   {
     id: 13,
-    src: "src/assets/id13.png",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More-768x480.webp",
     title: "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
     description:
       "Cybersecurity & Ethical hacking and have been key in making sure that your data online",
@@ -114,7 +114,7 @@ const Contents = [
   },
   {
     id: 14,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2022/12/cybersecuity-.gif",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More-768x480.webp",
     title:
       "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
     description:
@@ -123,7 +123,7 @@ const Contents = [
   },
   {
     id: 15,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Blue-Purple-Futuristic-Virus-Hacks-Youtube-Thumbnail-768x432.png",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More-768x480.webp",
     title: "Top 10 Ethical Hacking Books for Beginner to Advanced",
     description:
       "Did you know that according to the University of Maryland hackers attack every 39 seconds",
@@ -131,7 +131,7 @@ const Contents = [
   },
   {
     id: 16,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-768x432.png",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More-768x480.webp",
     title: "8 Different Types of Cybersecurity and Threats Involved",
     description:
       "Cybersecurity refers to the protection of devices, processes, infrastructure, and assets of the organization from",
@@ -139,7 +139,7 @@ const Contents = [
   },
   {
     id: 17,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+    src: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More-768x480.webp",
     title:
       "Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?",
     description:
