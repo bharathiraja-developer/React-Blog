@@ -25,7 +25,7 @@ const Contents = [
   },
   {
     id: 3,
-    src: "https://www.guvi.in/blog/wp-content/uploads/2023/07/feature-image-Full-Stack-Development-Webinars-and-Workshops.jpg",
+    src: "src/assets/id3.jpg",
     title: "Top Full Stack Development Webinars and Workshops",
     description:
       "Are you keen to elevate your web development skills and master the art of Full",
