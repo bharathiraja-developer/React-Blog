@@ -1,26 +1,31 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Productcard from "./Productcard";
+import Contents from "./Contents";
 
 function Home() {
   return (
-    <nav className="mt-4 border-bottom border-2 fw-medium">
-      <ul className="nav nav-underline justify-content-center">
-        <li className="nav-item">
-          <a className="nav-link active text-success">ALL</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-success">FULL STACK DEVELOPMENT</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-success">DATA SCIENCE</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-success">CYBER SECURITY</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link text-success">CAREER</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <Navbar />
+      <section className="py-5">
+        <div className="container px-4 px-lg-5 mt-3">
+          <div className="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center">
+            {Contents.map((content) => {
+              return (
+                <Productcard
+                  key={content.id}
+                  id={content.id}
+                  src={content.src}
+                  title={content.title}
+                  description={content.description}
+                  footer={content.footer}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 
